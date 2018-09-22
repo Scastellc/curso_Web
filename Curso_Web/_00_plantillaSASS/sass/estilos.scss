@@ -1,0 +1,44 @@
+/*
+
+    SASS
+
+    Es la base, de aqui se van a llamar todos los ficheros _xxxx.scss importante el orden del importado
+*/
+
+// Reset
+@import "base/reset/reset";
+    // si estamos ultilizando IE (para navegadores antiguos)
+    //@import "base/reset/normalize";
+
+// Variables
+@import "lib/variables";
+
+// Tipografias
+@import "base/tipografia";
+
+// Lib
+@import "lib/mixins";
+@import "lib/playholders";
+
+// Links
+@import "base/links/botones";
+@import "base/links/enlaces";
+@import "base/links/menus";
+
+// Formulario
+@import "base/formularios";
+
+// Imagenes
+@import "base/imagenes.scss";
+
+// Layouts
+@import "layout/banners";
+@import "layout/grids";
+@import "layout/layouts";
+
+
+
+
+
+
+
